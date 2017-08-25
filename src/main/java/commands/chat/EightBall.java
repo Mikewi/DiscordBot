@@ -34,7 +34,8 @@ public class EightBall implements Command {
 
         event.getTextChannel().sendMessage(
                 "Question: " + msg + "\n" +
-                "Answer: " + answers[randInt]
+                "Answer: " + answer
+            [randInt]
         ).queue();
 
 
